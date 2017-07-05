@@ -1,0 +1,94 @@
+.container {
+	max-width: 800px; 
+	margin: auto;
+}
+
+.outer {
+	height: 80px;
+	display: block;
+	max-width: 800px;
+	margin: 28px auto;
+	padding: 16px;
+	background: white;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.06), 0 0 0 0px rgba(0,0,0,0.08);
+	overflow: hidden;
+	transition: height 0.3s;
+}
+
+.outer:hover {
+	height: 126px!important;
+}
+
+.left-content {
+	float: left;
+}
+
+.left-content a:hover {
+	text-decoration: underline;
+}
+
+.right-content {
+	float: right;
+}
+
+.role {
+	font-size: 20px;
+	font-weight: 500;
+	color: #444;
+}
+
+.company {
+	font-size: 14px;
+	color: #888;
+	padding: 4px 0;
+}
+
+.location {
+	color: #888;
+	font-size: 12px;
+	line-height: 48px;
+}
+
+.add img {
+	margin: 0 0 -6px 8px;
+	border-radius: 50%;
+	box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.1), 0px 0px 0px 0px rgba(0,0,0,0.08);
+	transition: all 0.3s;
+}
+
+.add img:hover {
+	box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.1), 0px 0px 0px 0px rgba(0,0,0,0.08);
+}
+
+.bottom {
+	margin: 16px 0 0 0;
+}
+
+.links-container a {
+	display: inline-block;
+}
+
+.link {
+	cursor: pointer;
+	font-size: 12px;
+	border: 1px solid #888;
+	display: inline-block;
+	padding: 4px 16px;
+	border-radius: 4px;
+	margin: 0 16px 0 0;
+	color: #888;
+	background: none;
+	transition: all 0.3s;
+}
+
+.link:hover {
+	color: #fff;
+	border-color: white;
+	background: #33cf89;		
+}
+
+.highlight {
+	color: #33cf89;
+	border-color: #33cf89;
+}

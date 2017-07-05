@@ -1,0 +1,16 @@
+.outer {
+	line-height: 28px;
+	font-weight: 700;
+	border-radius: 4px;
+	color: #33cf89;
+	border: 1px solid #33cf89;
+	padding: 0px 16px;
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s;
+}
+
+.outer:hover {
+	background: #33cf89;
+	color: #fff;
+}
