@@ -29,7 +29,12 @@
 	color: #555;
 }
 
+.outer a {
+	display: inline-block;
+}
+
 .outer span {
 	text-decoration: underline;
 	color: #33cf89;
+	cursor: pointer;
 }

@@ -1,0 +1,32 @@
+.outer table {
+	width: 1000px;
+	background: white;
+	padding: 16px;
+	margin: 16px auto;
+	border-radius: 4px;
+	box-shadow: 0 0px 8px rgba(0,0,0,0.1);
+}
+
+.outer th {
+	text-align: left;
+	color: #555;
+	padding: 8px 0;
+}
+
+.outer td {
+	color: #555;
+	padding: 8px 0;
+}
+
+.outer tr {
+
+}
+
+.action {
+	cursor: pointer;
+	font-size: 12px;
+	max-width: 20px;
+	color: #888!important;
+	text-align: center;
+	text-decoration: underline;
+}
